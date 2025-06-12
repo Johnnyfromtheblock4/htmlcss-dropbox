@@ -3,3 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  height: 100px;
+  display: flex;
+}
+
+/* Classes */
+.logo {
+  width: 200px;
+}
+
+.hl-box {
+  display: flex;
+  width: 50%;
+}
+
+.hr-box {
+  display: flex;
+  width: 50%;
+
+}
+
+.button-start {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Align / Justify */
+.align-items-center {
+  align-items: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Utilities */
+.p-30 {
+  padding: 30px;
+}
+
+/* Background-color  */
+.bg-blue {
+  background-color: #0061FE;
+}

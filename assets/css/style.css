@@ -46,6 +46,12 @@ main {
   margin: 0 auto;
 }
 
+.container-small {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -58,14 +64,24 @@ main {
 
 .col-60 {
   width: 60%;
+
 }
 
 .col-40 {
   width: 40%;
 }
 
+.col-33 {
+  width: calc(100% / 3 - 20px);
+}
+
 .title {
   font-size: 100px;
+  font-weight: bolder;
+}
+
+.title-small {
+  font-size: 50px;
   font-weight: bolder;
 }
 
@@ -77,6 +93,35 @@ main {
 .text-box {
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.img-box {
+  font-size: 20px;
+  margin-bottom: 30px;
+
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.card.img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.top-text {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.bottom-text {
+  font-size: 20px;
+  margin-bottom: 70px;
 }
 
 /* Align / Justify */
@@ -95,6 +140,7 @@ main {
 .justify-end {
   justify-content: flex-end;
 }
+
 
 
 /* Utilities */
@@ -125,4 +171,9 @@ main {
 /* Background-color  */
 .bg-blue {
   background-color: #0061FE;
+}
+
+/* Size */
+.size-30 {
+  font-size: 30px;
 }

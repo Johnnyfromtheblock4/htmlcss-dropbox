@@ -46,6 +46,13 @@ main {
   padding: 10px;
 }
 
+.button-white {
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
 .container-big {
   max-width: 1400px;
   margin: 0 auto;
@@ -109,7 +116,7 @@ main {
   margin-bottom: 30px;
 }
 
-.img-box img {
+.coordinate {
   width: 100%;
 }
 
@@ -152,6 +159,10 @@ main {
   display: flex;
   gap: 20px;
   margin-bottom: 50px;
+}
+
+.partners {
+  width: 100%;
 }
 
 /* Align / Justify */
@@ -222,6 +233,10 @@ main {
 /* Size */
 .size-30 {
   font-size: 30px;
+}
+
+.size-20 {
+  font-size: 20px;
 }
 
 /* Text / Font properties */

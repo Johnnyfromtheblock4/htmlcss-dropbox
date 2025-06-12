@@ -10,6 +10,11 @@ header {
   font-size: 20px;
   height: 100px;
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 main {
@@ -52,6 +57,11 @@ main {
   
 }
 
+.row-top {
+  display: flex;
+  gap: 20px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +74,6 @@ main {
 
 .col-60 {
   width: 60%;
-
 }
 
 .col-40 {
@@ -98,7 +107,6 @@ main {
 .img-box {
   font-size: 20px;
   margin-bottom: 30px;
-
 }
 
 .img-box img {

@@ -132,6 +132,22 @@ main {
   margin-bottom: 70px;
 }
 
+.box {
+  border: 0.5px solid #D6D5D8;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 30px;
+}
+
+.box-top {
+  border: 0.5px solid #D6D5D8;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 /* Align / Justify */
 .align-items-center {
   align-items: center;
@@ -160,6 +176,14 @@ main {
   padding: 10px;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
 .mt-150 {
   padding-top: 150px;
 }
@@ -176,6 +200,14 @@ main {
   margin-bottom: 30px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
 /* Background-color  */
 .bg-blue {
   background-color: #0061FE;
@@ -184,4 +216,18 @@ main {
 /* Size */
 .size-30 {
   font-size: 30px;
+}
+
+/* Text / Font properties */
+
+.bold {
+  font-weight: bold;
+}
+
+.color-lightgray {
+  color: rgb(141, 141, 141);
+}
+
+.color-blue {
+  color: blue;
 }

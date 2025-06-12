@@ -12,7 +12,11 @@ header {
   display: flex;
 }
 
-/* Classes */
+main {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Container */
 .logo {
   width: 200px;
 }
@@ -25,13 +29,54 @@ header {
 .hr-box {
   display: flex;
   width: 50%;
-
 }
 
 .button-start {
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
+}
+
+.button-start-2 {
+  color: white;
+  padding: 10px;
+}
+
+.container-big {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.section-blue {
+  width: 100%;
+  background-color: #B4D0E6;
+}
+
+.text-box {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 /* Align / Justify */
@@ -43,9 +88,38 @@ header {
   text-align: right;
 }
 
+.text.center {
+  text-align: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+
 /* Utilities */
 .p-30 {
   padding: 30px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mt-150 {
+  padding-top: 150px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.mb-150 {
+  margin-bottom: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 /* Background-color  */

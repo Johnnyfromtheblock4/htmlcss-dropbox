@@ -148,6 +148,11 @@ main {
   padding: 10px;
 }
 
+.top-column {
+  display: flex;
+  gap: 20px;
+}
+
 /* Align / Justify */
 .align-items-center {
   align-items: center;

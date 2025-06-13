@@ -110,6 +110,10 @@ footer {
   width: calc(100% / 5 - 20px);
 }
 
+.col-30 {
+  width: 30%;
+}
+
 .title {
   font-size: 100px;
   font-weight: bolder;
@@ -180,6 +184,28 @@ ul {
 
 .partners {
   width: 100%;
+}
+
+.fatturazione {
+  margin-bottom: 50px;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+#f-mensile {
+  background-color: white;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  align-items: center;
+}
+
+#f-annuale {
+  background-color: white;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  align-items: center;
 }
 
 /* Align / Justify */
@@ -281,6 +307,10 @@ ul {
 
 
 /* Size */
+.size-50 {
+  font-size: 50px;
+}
+
 .size-30 {
   font-size: 30px;
 }
@@ -295,24 +325,12 @@ ul {
   font-weight: bold;
 }
 
-.color-lightgray {
-  color: rgb(141, 141, 141);
-}
-
 .color-blue {
   color: blue;
 }
 
 .min-height-1030 {
   min-height: 1030px;
-}
-
-.box-70 {
-  width: 70%;
-}
-
-.box-30 {
-  width: 30%;
 }
 
 .font-t {

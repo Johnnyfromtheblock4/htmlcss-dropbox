@@ -337,3 +337,26 @@ ul {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 }
+
+/* Bonus-1 */
+
+.button-start:hover {
+  background-color: #0048c9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-start-2:hover {
+  background-color: #0048c9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-white:hover {
+  background-color: #f0f0f0;
+  color: #0061FE;
+  border-color: #0061FE;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+

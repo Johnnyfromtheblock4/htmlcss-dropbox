@@ -210,6 +210,10 @@ ul {
   padding-top: 150px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .m-10 {
   margin: 10px;
 }
@@ -256,4 +260,16 @@ ul {
 
 .color-blue {
   color: blue;
+}
+
+.min-height-1030 {
+  min-height: 1030px;
+}
+
+.box-70 {
+  width: 70%;
+}
+
+.box-30 {
+  width: 30%;
 }

@@ -10,7 +10,7 @@ header {
   font-size: 20px;
   height: 100px;
   display: flex;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -61,7 +61,7 @@ main {
 .container-small {
   max-width: 1200px;
   margin: 0 auto;
-  
+
 }
 
 .row-top {
@@ -112,21 +112,20 @@ main {
 }
 
 .img-box {
+  position: relative;
   font-size: 20px;
   margin-bottom: 30px;
 }
 
 .coordinate {
   width: 100%;
+  position: absolute;
 }
 
 .card.img {
   position: relative;
 }
 
-.card-img img {
-  width: 100%;
-}
 
 .top-text {
   font-size: 30px;
@@ -150,8 +149,7 @@ main {
   border: 0.5px solid #D6D5D8;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 10px;
 }
 
@@ -199,6 +197,10 @@ main {
 
 .pr-30 {
   padding-right: 30px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
 }
 
 .mt-150 {

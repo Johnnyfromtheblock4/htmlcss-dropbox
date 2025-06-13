@@ -91,6 +91,10 @@ main {
   width: calc(100% / 3 - 20px);
 }
 
+.col-70 {
+  width: 70%;
+}
+
 .title {
   font-size: 100px;
   font-weight: bolder;

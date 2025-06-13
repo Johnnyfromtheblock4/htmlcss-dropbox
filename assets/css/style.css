@@ -122,8 +122,9 @@ main {
   position: absolute;
 }
 
-.card.img {
-  position: relative;
+
+.card-img img {
+  width: 100%;
 }
 
 
@@ -143,7 +144,7 @@ main {
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 30px;
-  
+
 }
 
 .box-top {
@@ -156,11 +157,6 @@ main {
 
 ul {
   list-style-type: none;
-}
-
-.top-column {
-  gap: 20px;
-  margin-bottom: 50px;
 }
 
 .partners {
